@@ -3,12 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Droguería</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Droguería El Palmar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff7eb9;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative; /* Añadido para posicionar imágenes */
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .logo {
+            width: 150px; /* Tamaño de las imágenes */
+            height: auto;
+            position: absolute;
+            left: 20px; /* Posición de la primera imagen */
+            top: 50%; /* Centrar verticalmente */
+            transform: translateY(-50%);
+            border-radius: 50%; /* Hace que los bordes sean circulares */
+            border: 2px solid #FF00FF; /* Puedes ajustar el color y el grosor del borde */
+        }
+        .logo-right {
+            width: 150px; /* Tamaño de la segunda imagen */
+            height: auto;
+            position: absolute;
+            right: 20px; /* Posición de la segunda imagen */
+            top: 50%; /* Centrar verticalmente */
+            transform: translateY(-50%);
+            border-radius: 50%; /* Hace que los bordes sean circulares */
+            border: 2px solid #FF00FF; /* Puedes ajustar el color y el grosor del borde */
+        }
+        h1 {
+            margin: 0; /* Elimina el margen predeterminado */
+        }
+        section {
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #ff7eb9;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        /* Estilos para las secciones */
+        #productos {
+            background-color: #FF00FF; /* Fucsia */
+            padding: 20px;
+        }
+
+        #ubicacion {
+            background-color: #17519e; /* Cian */
+            padding: 20px;
+        }
+
+        #contacto {
+            background-color: #FFFF00; /* Amarillo */
+            padding: 20px;
+        }
+
+    </style>
 </head>
 <body>
     <header>
-        <h1>Bienvenido a la Droguería el Palmar</h1>
+        <img src="https://images.pexels.com/photos/5910953/pexels-photo-5910953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Logo Izquierdo" class="logo">
+        <h1>Bienvenido a Droguería El Palmar</h1>
+        <img src="https://media.istockphoto.com/id/1270919127/es/foto/aqu%C3%AD-est%C3%A1-su-medicaci%C3%B3n-se%C3%B1ora.jpg?s=612x612&w=0&k=20&c=c6c7Yka1voBPIBHcMMIbLeykRLOrOXSR17WrHXb429E=" alt="Logo Derecho" class="logo-right">
         <nav>
             <ul>
                 <li><a href="#productos">Productos</a></li>
@@ -20,29 +95,30 @@
     <section id="productos">
         <h2>Nuestros Productos</h2>
         <ul>
-            <li>Cosméticos</li>
-            <li>Antigripales</li>
-            <li>Anticonceptivos</li>
-            <li>Antidiarreicos</li>
-            <li>Antitaponados</li>
-            <li>Papelería</li>
+            <li>Productos Farmacéuticos</li>
             <li>Dermocosmética</li>
+            <li>Antigripales</li>
+            <li>Hidratación</li>
+            <li>Papelería</li>
             <!-- Puedes agregar más productos aquí -->
         </ul>
     </section>
     <section id="ubicacion">
         <h2>Ubicación</h2>
         <p>Encuéntranos en:</p>
-        <address>Dirección de tu droguería</address>
+        <address>Manzana 12 Casa 20, entrando por la licorera</address>
     </section>
     <section id="contacto">
         <h2>Contacto</h2>
         <p>Estamos disponibles para ayudarte:</p>
-        <p>Teléfono: [Tu número de teléfono]</p>
-        <p>Correo Electrónico: [Tu dirección de correo]</p>
+        <p>Atendemos de lunes a domingo de 9:00 am a 9:00 pm</p>
+        <p>Ana María Cogollo</p>
+        <p>Teléfono: 3178174667</p>
+        <a href="https://wa.me/573016456036">Enviar mensaje por WhatsApp</a>
+
     </section>
     <footer>
-        <p>&copy; 2023 Mi Droguería</p>
+        <p>&copy; 2023 Droguería El Palmar</p>
     </footer>
 </body>
 </html>
